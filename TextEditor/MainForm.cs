@@ -11,12 +11,12 @@ using System.IO;
 
 namespace TextEditor
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
         private bool changed = false;
         private string editorFile = "";
 
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
 
